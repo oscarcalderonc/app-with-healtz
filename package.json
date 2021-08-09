@@ -1,0 +1,24 @@
+{
+  "name": "app-with-healtz",
+  "version": "0.0.1",
+  "description": "Simple service with a /health endpoint to testk k8s liveprobe feature",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarcalderonc/app-with-healtz.git"
+  },
+  "author": "Oscar Calderon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscarcalderonc/app-with-healtz/issues"
+  },
+  "homepage": "https://github.com/oscarcalderonc/app-with-healtz#readme",
+  "dependencies": {
+    "@koa/router": "^10.1.0",
+    "koa": "^2.13.1"
+  }
+}
